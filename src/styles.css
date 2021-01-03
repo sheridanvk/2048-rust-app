@@ -1,0 +1,66 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: saddlebrown;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.cell {
+  border-radius: 4px;
+  border: solid black 1px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+.cell-0 {
+  background-color: white;
+}
+
+.cell-2 {
+  background-color: lightcoral;
+}
+
+.cell-4 {
+  background-color: lightgreen;
+}
+
+.cell-8 {
+  background-color: lightblue;
+}
+
+.cell-16 {
+  background-color: lightgoldenrodyellow;
+}
+
+.cell-32 {
+  background-color: lightsteelblue;
+}
+
+.cell-64 {
+  background-color: lightpink;
+}
+
+.cell-128 {
+  background-color: lightsalmon;
+}
+.cell-256 {
+  background-color: lightseagreen;
+}
+.cell-512 {
+  background-color: lightyellow;
+}
+.cell-1024 {
+  background-color: lightskyblue;
+}
+.cell-2048 {
+  background-color: lavender;
+}
+.cell-4096 {
+  background-color: lavenderblush;
+}
